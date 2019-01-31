@@ -69,7 +69,7 @@
     currency: 'USD',
     available: false
 }, {
-    title: 'HTML 5 Black Book (Covers CSS3, JavaScript, XML, XHTML, AJAX, PHP, jQuery) 2Ed',
+    title: 'HTML 5 Black Book',
     releaseDate: '15 December 2016',
     year: 2016,
     imageUrl: 'images/08.jpg',
