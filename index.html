@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+    <title>Books</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="header__logo">Bookify</a>
+        <ul class="header__nav nav">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Shop</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">News</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contacts</a></li>
+        </ul>
+        <div class="header__shop-cart shop-cart">
+            <span class="shop-cart__title">Shopping cart: <span class="shop-cart__amount">0</span> items</span>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__books books">
+            <div class="books__item book book-template">
+                <img src="images/01.jpg" alt="" class="book__cover">
+                <h2 class="book__title">Book title</h2>
+                <h3 class="book__subtitle">Author name / 15 Jan 2010</h3>
+                <p class="book__description">Rating: <span class="book__rating">4.5</span></p>
+                <p class="book__price price">Price: <span class="price__amount">500</span><span class="price__currency">UAH</span></p>
+                <div class="book__controls">
+                    <span class="book__btn add-to-cart-btn">Add to cart</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
